@@ -53,8 +53,10 @@ table {
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	max-width: 880px;
+	font-family: 'Titillium Web', sans-serif;
+	
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +66,132 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.navigation {
+	display: inline-block;
+	text-align: justify;
+	margin-top: 25px;
+	padding-left: 50px;
+	padding-bottom: 10px;
+	border: 25px;
+}
+
+.navigation a{
+	margin: 3px;
+	border: 0px;
+	padding: 10px;
+	padding-bottom: 10px;
+	vertical-align:	50%;
+	color: grey;
+	text-decoration: none;
+	
+}
+.header {
+	display: inline-block;
+
+}
+
+#top  {
+	position: relative;
+	float: right;
+	padding-left: 50px;	
+	}
+	
+h2 {
+	display: inline-block;
+	position: relative;
+	margin: 55px;
+	margin-bottom: 0px;
+	padding: 5px;
+	font-size: 56px;
+	line-height: 1.2;
+	text-align: center;
+	}
+
+.topimg {
+	position: relative;
+	padding-top: 0px;
+	margin: 75px;
+	float: right;
+	}
+
+#start a:link, a:visited {
+	background-color: white;
+	color: black;
+	padding: 10px 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border: solid 1px black;
+	position: relative;
+	margin-left: 83px;
+	margin-top: 0px;
+	margin-bottom: 75px;
+	
+	
+}
+
+#start a:hover, a:active {
+	color: lightgrey;
+} 
+
+#line {
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 35px;
+	width: 880px;
+}
+
+h3 {
+	font-size: 16px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.topcontent {
+	display: inline-block;
+	margin: 100px;
+	border: 100px;
+	padding: 100px;
+	
+}
+
+.middle-img {
+	margin-bottom: 25px;
+	margin-top: 50px;
+}
+
+span.b {
+	display: inline-block;
+	width: 438px;
+	height:	125px;
+	padding: 5px;
+
+}
+
+span.c {
+	display: inline-block;
+	width: 290px;
+	height: 100px;
+	padding: 5px;
+}
+
+footer {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
