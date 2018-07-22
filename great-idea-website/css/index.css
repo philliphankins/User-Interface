@@ -67,6 +67,11 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.wrapper {
+    width: 880px;
+    margin: 0 auto;
+}
+
 
 .navigation {
 	display: inline-block;
@@ -87,24 +92,26 @@ h1, h2, h3, h4, h5 {
 	text-decoration: none;
 	
 }
-.header {
-	display: inline-block;
 
-}
+
 
 #top  {
 	position: relative;
 	float: right;
-	padding-left: 50px;	
+    margin-top: -10px;
+	padding-left: 50px;
+
 	}
 	
 h2 {
 	display: inline-block;
-	position: relative;
-	margin: 55px;
-	margin-bottom: 0px;
-	padding: 5px;
-	font-size: 56px;
+	position: absolute;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    padding: 5px;
+	font-size: 60px;
 	line-height: 1.2;
 	text-align: center;
 	}
@@ -112,7 +119,7 @@ h2 {
 .topimg {
 	position: relative;
 	padding-top: 0px;
-	margin: 75px;
+	margin: 35px;
 	float: right;
 	}
 
@@ -124,9 +131,9 @@ h2 {
 	text-decoration: none;
 	display: inline-block;
 	border: solid 1px black;
-	position: relative;
-	margin-left: 83px;
-	margin-top: 0px;
+	position: absolute;
+	margin-left: 138px;
+	margin-top: 320px;
 	margin-bottom: 75px;
 	
 	
